@@ -1,0 +1,95 @@
+nav {
+  width: 100vw;
+  height: 100px;
+  background-color: gray;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.logo {
+  background-color: black;
+  width: 200px;
+  height: 70px;
+  color: white;
+}
+
+
+.heroImage {
+  width: 960px;
+  height: 450px;
+  background-color: black;
+  margin: auto;
+  color: white
+}
+
+.threeImages { 
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+
+.subImage {
+  width: 300px;
+  height: 375px;
+  background-color: black;
+  justify-content: center;
+  color: white;
+}
+
+.picWithText {
+  margin: auto;
+  display: flex;
+  width: 960px;
+  max-height: 400px;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+#leftPic {
+  background-color: black;
+  width: 480px;
+  height: 400px;
+  color: white;
+}
+
+.textWithButton {
+  width: 480px;
+  max-height: 400px;
+  margin-left: 30px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.textWithButton p {
+  overflow: auto;
+  height: 50%;
+  margin: 10px 0;
+}
+
+.textWithButton h3 {
+  font-size: 2rem;
+}
+
+.button {
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  width: 40%;
+  height: 40px
+  margin: 2px;
+}
+
+.button:hover {
+  background-color: blue;
+}
+
+footer {
+  width: 100vw;
+  height: 100px;
+  background-color: grey;
+}
+
