@@ -66,11 +66,12 @@ nav {
 
 .textWithButton p {
   overflow: auto;
-  height: 50%;
+  height: 80%;
   margin: 10px 0;
 }
 
 .textWithButton h3 {
+  height: 10%;
   font-size: 2rem;
 }
 
@@ -79,12 +80,17 @@ nav {
   color: white;
   background-color: black;
   width: 40%;
-  height: 40px
+  height: 10%;
   margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 350ms;
 }
 
 .button:hover {
   background-color: blue;
+  transition: 350ms;
 }
 
 footer {
